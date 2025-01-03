@@ -1,0 +1,141 @@
+.Templates{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    padding: 20px;
+}
+.first-template{
+    margin: 20px 30px;
+    width:97%;
+    height:200px;
+    margin-left: 20px;
+    border-radius: 20px;
+    background-image: url('../../assets/images/fruits.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    object-fit: contain;
+}
+.title{
+    display: flex;
+    gap:10px
+}
+
+.template-content{
+    font-size: 20px;
+    color: rgb(75, 77, 75);
+    font-weight: bold;
+    margin:2% 3%;
+
+}
+.fruits{
+    color: rgb(0, 128, 0);
+}
+.corner{
+    color: rgb(34, 34, 34);
+}
+.template1-btn{
+    background-color: rgb(16, 105, 16);
+    color: rgb(255, 253, 253);
+    font-size: 15px;
+    padding: 5px 15px;
+    margin: 10px 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    
+}
+
+.first-template-image{
+    width: 370px;
+    height: 270px;
+    /* margin-left:0px; */
+    margin-top: -2% ;
+}
+.Group-template{
+display:flex;
+gap: 10px;
+}
+.Group-template img{
+    width: 350px;
+    height: 200px;
+    margin-left:30px;
+}
+
+.template2{
+    width:30%;
+    height:200px;
+    margin-left: 20px;
+    border-radius: 20px;
+    background-image: url('../../assets/images/pharmaandwellness.jpg');
+    background-size:cover;
+    
+}
+.template2-title{
+    font-size: 20px;
+    color: rgb(54, 61, 54);
+    font-weight: bold;
+    margin:2% 3%;
+    
+}
+.template2-btn{
+    background-color: rgb(46, 46, 46);
+    color: rgb(255, 253, 253);
+    font-size: 12px;
+    padding: 5px 5px;
+    margin:2% 3%;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.template3{
+    width:30%;
+    height:200px;
+    margin-left: 20px;
+    border-radius: 20px;
+    background-image: url('../../assets/images/Munchies.jpeg');
+    background-size:cover;
+    
+
+}
+.template3-title{
+    font-size: 20px;
+    color: rgb(10, 10, 10);
+    font-weight: bold;
+    margin:2% 3%; 
+}
+.template3-btn{
+    background-color:rgb(46, 46, 46);
+    color: rgb(255, 253, 253);
+    font-size: 12px;
+    padding: 5px 5px;
+    margin:2% 3%;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+.template4{
+    width:30%;
+    height:200px;
+    margin-left: 20px;
+    border-radius: 20px;
+    background-image: url('../../assets/images/babyCare.webp');
+    background-size:cover;
+
+}
+.template4-title{
+    font-size: 20px;
+    color: rgb(250, 246, 246);
+    font-weight: bold;
+    margin:2% 3%;
+}
+.template4-btn{
+    background-color: rgb(24, 23, 23);
+    color: rgb(255, 253, 253);
+    font-size: 12px;
+    padding: 5px 5px;
+    margin:2% 3%;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}

@@ -1,0 +1,13 @@
+.searchProduct{
+    margin-top: 8%;
+    display: flex;
+ justify-content: space-around;
+ gap: 30px;
+ width: 40px;
+padding: 20px 100px;
+
+}
+.ErrorMessage{
+    margin-top: 8%;
+    text-align: center;
+}

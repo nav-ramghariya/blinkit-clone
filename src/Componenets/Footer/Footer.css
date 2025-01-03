@@ -1,0 +1,116 @@
+.footer{
+    /* height: 400px; */
+    margin-top: 40px;
+    font-size: 15px;
+}
+.upper-footer{
+    display: flex;
+    justify-content: space-around;
+    
+    /* align-items: center; */
+
+}
+.usefulLinks{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.list-usefullLinks{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    cursor: pointer;
+}
+.list-usefullLinks  li{
+    list-style: none;
+    color: rgb(75, 74, 74);
+}
+.footer-category{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 8px;
+    padding: 0;
+    margin: 0;
+   column-gap: 50px;
+}
+.footer-categories{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-category li {
+    font-size: 15px;
+    list-style: none;
+    cursor: pointer;
+    color: rgb(75, 74, 74);
+}
+.socialMedia-footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2%;
+    font-size: 14px;
+    color: rgb(75, 74, 74);
+
+}
+.download-app{
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    align-items: center;
+   text-align: center;
+   margin-right: 5%;
+}
+.social-media{
+    display: flex;
+    gap: 30%;
+    justify-content: space-around;
+}
+.download-links{
+    display: flex;
+    gap:7%;
+}
+.appStore{
+    height: 30px;
+    width: 90px;
+}
+.playStore{
+    height: 30px;
+    width: 90px;
+}
+.facebook{
+    color: white;
+    background-color: black;
+    padding: 9px;
+    border-radius: 50%;
+    font-size: 40px;
+}
+.twitter{
+    color: white;
+    background-color: black;
+    padding: 9px;
+    border-radius: 50%;
+    font-size: 40px;
+}
+.instagram{
+    color: white;
+    background-color: black;
+    padding: 9px;
+    border-radius: 50%;
+    font-size: 40px;
+}
+.linkedin{
+    color: white;
+    background-color: black;
+    padding: 9px;
+    border-radius: 50%;
+    font-size: 40px;
+    
+}
+.last-footer{
+    margin-top: 30px;
+    font-size: 15px;
+    color: rgb(75, 74, 74);
+    margin:15px 10px;
+    padding: 20px 30px;
+}
